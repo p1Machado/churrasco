@@ -37,6 +37,12 @@ section .container {
   width: 50%;
 }
 
+@media (max-width: 576px) {
+	.header .title {
+		font-size: 4rem;
+	}
+}
+
 @media (max-width: 768px) {
   .left, .right {
     width: 100%;
