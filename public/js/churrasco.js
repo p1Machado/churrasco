@@ -57,6 +57,21 @@ var app = new Vue({
       },
       {
         nome: 'Namorada do Matheus', confirmado: true
+      },
+      {
+        nome: 'Patrick', confirmado: true
+      },
+      {
+        nome: 'Alana', confirmado: true
+      },
+      {
+        nome: 'Sérgio (Pai do Patrick)', confirmado: true
+      },
+      {
+        nome: 'Eliete (Mãe do Patrick)', confirmado: true
+      },
+      {
+        nome: 'Pablo', confirmado: false
       }
     ]
   },
