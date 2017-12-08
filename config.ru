@@ -1,5 +1,5 @@
 use Rack::Static,
-  :urls => Dir.glob("public/*").map { |fn| fn.gsub(/public/, '')},
+  :urls => ["/images", "/js", "/css"],
   :root => "public"
 
 run lambda { |env|
