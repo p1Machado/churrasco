@@ -54,6 +54,9 @@ var app = new Vue({
       },
       {
         nome: 'Matheus', confirmado: true
+      },
+      {
+        nome: 'Namorada do Matheus', confirmado: true
       }
     ]
   },
