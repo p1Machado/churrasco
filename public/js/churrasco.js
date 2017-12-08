@@ -32,18 +32,29 @@ var app = new Vue({
         nome: 'Nilton', confirmado: true
       },
       {
+        nome: 'Esposa do Nilton', confirmado: true
+      },
+      {
         nome: 'Rafael Mateus', confirmado: true
       },
       {
         nome: 'Raissa', confirmado: true
       },
       {
+        nome: 'Alexandre', confirmado: true
+      },
+      {
         nome: 'Rian', confirmado: false
       },
       {
-        nome: 'Namorada Rian', confirmado: false
+        nome: 'Namorada do Rian', confirmado: false
+      },
+      {
+        nome: 'Claudio Reis', confirmado: true
+      },
+      {
+        nome: 'Matheus', confirmado: true
       }
-
     ]
   },
   components: {
