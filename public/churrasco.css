@@ -1,0 +1,124 @@
+body {
+  background: #eee;
+}
+
+section .container {
+  padding-bottom: 1.5rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.header {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.header .title {
+  margin-bottom: 0;
+  font-size: 6rem;
+  font-family: monospace;
+}
+
+
+.left {
+  padding-right: 10px;
+  float: left;
+}
+
+.right {
+  padding-left: 10px;
+  float: right;
+}
+
+.left, .right {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .left, .right {
+    width: 100%;
+  }
+
+  .left {
+    padding-right: 0;
+  }
+
+  .right {
+    padding-left: 0;
+  }
+}
+
+.informacoes p {
+  line-height: 1.5em;
+}
+
+iframe {
+  width: 100%;
+}
+
+.footer {
+  background: #fff;
+  height: 500px;
+}
+
+.footer .left, .footer .right {
+  height: 450px;
+}
+
+.footer .left {
+  position: relative;
+}
+
+.footer .left .bottom span:not(:first-of-type) {
+  margin-left: 1.5em;
+}
+
+.footer .left span i {
+  margin-right: .5em;
+}
+
+.footer .container {
+  padding-top: 1.5rem;
+}
+
+#author {
+  cursor: default;
+  opacity: 0.54;
+  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+#author:hover {
+  opacity: 1;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
+
+.convidados table {
+  -webkit-animation: fadein 1s ease-out;
+  -moz-animation: fadein 1s ease-out;
+  animation: fadein 1s ease-out;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="66541-200.png">
+
+  <title>Churrasco!</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0\css\font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="churrasco.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1 class="title"><span>Bora churrasco?</span></h1>
+    </div>
+  </header>
+
+  <section class="main">
+
+    <div class="container clearfix">
+
+      <div class="left">
+
+        <div class="informacoes">
+            <span class="lead">Quando vai ser?</span>
+            <p>- 10/12/2017 (domingo)</p>
+        </div>
+
+        <div class="informacoes">
+            <span class="lead">Que horas?</span>
+            <p>- 12:00</p>
+        </div>
+
+        <div class="informacoes">
+            <span class="lead">Onde?</span>
+            <p>- Na minha casa</p>
+        </div>
+
+      </div>
+
+      <div class="right">
+        <div class="informacoes">
+            <span class="lead">Quem é que vai pagar?</span>
+            <p>- Vai ser rateio</p>
+        </div>
+
+        <div class="informacoes">
+            <span class="lead">Sim, e quem vai assar?</span>
+            <p>- O Nilton! :D</p>
+        </div>
+
+        <div class="informacoes">
+            <span class="lead">O que vai ter pra beber?</span>
+            <p>- Melhor cada um trazer a sua bebida</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="convidados">
+
+    <div class="container">
+      <div class="informacoes">
+        <p class="lead" style="margin-bottom: 0;">Quem já confirmou?</p>
+        <div id="table-convidados">
+          <table-convidados :convidados="convidados"></table-convidados>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+
+    <div class="container clearfix">
+
+      <div class="right">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.8642676930303!2d-48.663634684422014!3d-27.62872013010034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527359500780c2f%3A0xec1b84937ed6299b!2sR.+Valdemar+Vi%C3%AAira%2C+65+-+Jardim+Eldorado%2C+Palho%C3%A7a+-+SC%2C+88133-390!5e0!3m2!1spt-BR!2sbr!4v1512600636981" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="left">
+        <h5 id="author" title="  Mestre Jedi  " >Patrick Machado</h5>
+
+        <div class="bottom">
+          <span><i class="fa fa-lg fa-phone" aria-hidden="true"></i>3033-3623</span>
+          <span><i class="fa fa-lg fa-mobile" aria-hidden="true"></i>9.9652-9562</span>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="https://unpkg.com/vue"></script>
+  <script src="churrasco.js"></script>
+
+</body>
+</html>
