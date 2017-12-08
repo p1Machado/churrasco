@@ -57,6 +57,13 @@ var app = new Vue({
       }
     ]
   },
+  computed: {
+    sortedConvidados: function () {
+      return this.convidados.sort(function(a,b) {
+		  return a.nome > b.nome;
+	  });
+    }
+  },
   components: {
     'table-convidados': tableConvidados
   }
