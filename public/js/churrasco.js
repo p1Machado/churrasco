@@ -44,10 +44,10 @@ var app = new Vue({
         nome: 'Alexandre', confirmado: true
       },
       {
-        nome: 'Rian', confirmado: false
+        nome: 'Rian', confirmado: true
       },
       {
-        nome: 'Namorada do Rian', confirmado: false
+        nome: 'Namorada do Rian', confirmado: true
       },
       {
         nome: 'Claudio Reis', confirmado: true
